@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;500;700;900&display=swap');
+// @mixin random{
+//     color: #000000;
+//     background: #000;
+//     border-radius: 10px;
+//     border: 1px solid black;
+//     width: 100px;
+//     height: 100px;
+// }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    @include random();
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+.col_helper{
+    max-width: 450px;
+}
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.header .nav__list{
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+}
+.header .nav__list-link{
+color: #34547A;
+}
+.home{
+padding-top: 260px;
+background-color:#EEEFF1;
+padding-bottom: 136px;
+}
+.home .home__title{
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+color: #000000;
+
+}
+.home.home__description{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+margin-bottom: 60px;
+}
+.home.home__btn{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+padding: 25px 41px;
+background-color: #34547A;
+display: inline-block;
+}

@@ -1,0 +1,43 @@
+<!-- <header></header>
+    <main><section>
+    </section>
+</main>
+<footer>
+
+</footer> -->
+  <!-- <div></div>
+  <p></p>
+  <ul></ul>
+  <ol></ol>
+  <li></li>
+   <br>
+  <hr>
+  <h1></h1> -Блочные элементы(В ширину родителя) -->
+<!-- 
+  <a href=""></a>
+  <img src="" alt=""> -->
+  <!-- <span>text</span> (Строчный элемент занимает ширину своего контента) -->
+  <!-- <span>text</span>
+  <span>text</span>
+  <span>text</span>
+  <span>text</span>
+
+
+</body>
+</html>  -->
+
+ Строчные элементы не принимают ширину и высоту 
+
+
+
+
+/* div {
+         color: red;
+         width: 100px;
+         height: 100px;
+         background-color: gray;
+         padding: 15px;
+         /* padding-top: 10px;
+         */
+        border: 5px solid black;
+        margin: 10px; */

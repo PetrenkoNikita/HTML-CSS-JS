@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,50%);
+}
+ul li{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 32px;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    margin:0 15px ;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top: 4px solid red;
+    border-right: 4px solid green;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid yellow;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+ul li:hover{
+    cursor: pointer;
+}
+ul li:hover::before{
+    transform: translate(-50%,-50%) rotate(360deg);
+
+}

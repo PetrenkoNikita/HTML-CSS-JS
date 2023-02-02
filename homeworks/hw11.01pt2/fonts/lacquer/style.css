@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lacquer';
+    src: local('Lacquer Regular'), local('Lacquer-Regular'),
+        url('Lacquer-Regular.woff2') format('woff2'),
+        url('Lacquer-Regular.woff') format('woff'),
+        url('Lacquer-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,55 @@
+@import "./fonts/oswald/stylesheet.css";
+@import "./fonts/lacquer/style.css";
+@import "./fonts/indieflower/stylesheet.css";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+@font-face {
+    font-family: 'oswald';
+    src: url();
+}
+h1{
+    font-family: 'oswald';
+    text-align: center;
+    color: green;
+}
+h2{
+    font-family: 'oswald';
+    color: navy;
+}
+h3{
+    font-family: 'lacquer';
+}
+.str1{
+    font-family: 'oswald';
+    font-size:larger;
+}
+.str2{
+    font-family: 'Indie Flower';
+    font-size: medium;
+}
+.str3{
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+}
+.str4{
+    font-family: 'oswald';
+    text-transform: uppercase;
+}
+.colortxtred{
+    color: red;
+}
+.colortxtgray{
+    color: gray;
+}
+.colortxtgreen{
+    color: green;
+}
+.colortxtyg{
+    color: greenyellow;
+}
+.colortxtblue{
+    color: darkblue;
+}
